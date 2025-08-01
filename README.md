@@ -1,12 +1,11 @@
 
 # Intelligent Classification of Rural Infrastructure Projects 🇮🇳
 
-This project was developed as part of the **IBM SkillBuild Internship via AICTE (2025)**.  
-It uses **IBM Watson Studio AutoAI** to classify infrastructure projects into PMGSY schemes.
+ **IBM Watson Studio AutoAI** to classify infrastructure projects into PMGSY schemes.
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Develop a machine learning model to automatically classify rural road/bridge construction projects into one of the following PMGSY schemes:
 - PMGSY-I
@@ -18,7 +17,7 @@ Classification is based on physical and financial characteristics such as projec
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Source**: [India AI Kosh – PMGSY Dataset](https://aikosh.indiaai.gov.in/web/datasets/details/pradhan_mantri_gram_sadak_yojna_pmgsy.html)
 - **Columns**:
@@ -33,7 +32,7 @@ Target column: **`PMGSY_SCHEME`**
 
 ---
 
-## ⚙️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 - IBM Watson Studio (AutoAI)
 - IBM Cloud Object Storage
@@ -43,7 +42,7 @@ Target column: **`PMGSY_SCHEME`**
 
 ---
 
-## 🧠 AutoAI Workflow
+##  AutoAI Workflow
 
 - Dataset uploaded to IBM Watson Studio
 - AutoAI explored multiple pipelines (Random Forest, Gradient Boosting, etc.)
@@ -52,35 +51,16 @@ Target column: **`PMGSY_SCHEME`**
 
 ---
 
-## 📊 Model Performance
-
-> AutoAI generated the leaderboard of models with their accuracy, precision, recall, and F1 scores.  
-> *(See `model_performance.png` for details.)*
-
----
-
-## 🚀 Deployment
+##  Deployment
 
 Model deployed on IBM Cloud.  
-**Link (if public):** See `ibm_cloud_link.txt`
+ `ibm_cloud_link.txt`
 
 ---
 
-## 📎 Project Files
 
-| File | Description |
-|------|-------------|
-| `PMGSY_DATASET.csv` | Dataset used (partial/sample) |
-| `deployment_screenshot.png` | IBM Watsonx.ai deployment screenshot |
-| `model_performance.png` | AutoAI leaderboard screenshot |
-| `result.pdf` | Summary of the project result |
-| `final_ppt.pdf` | Final PPT submitted for IBM Internship |
-| `ibm_cloud_link.txt` | Public deployment URL (if applicable) |
+##  Author
 
----
-
-## 🙋‍♂️ Author
-
-**Siva**  
+**Siva Prasad**  
 3rd Year CSE, Kerala Technological University  
 GitHub: [github.com/Sivaprasad2k](https://github.com/Sivaprasad2k)
